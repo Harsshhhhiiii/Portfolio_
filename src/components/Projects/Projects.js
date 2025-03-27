@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import chatify from "../../Assets/Projects/chatify.png";
-import Pshop from "../../Assets/Projects/Pshop.png";
+import DSATUT from "../../Assets/Projects/DSATUT.png"
 
 function Projects() {
   return (
@@ -22,26 +22,27 @@ function Projects() {
               isBlog={false}
               title="Chatify"
               description="A Chat App where a use can securely register himself. It is a platform where the user can search and find a person registered and start to chat. It has real time messaging feature with socket.io implemented."
-              ghLink=""
-              demoLink=""
+              ghLink="https://github.com/Harsshhhhiiii/Chatify"
+              demoLink="https://chatify-kbmc.onrender.com"
             />
           </Col>
 
-          <Col md={4} className="project-card  ">
-            <ProjectCard 
-              imgPath={Pshop}
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={DSATUT}
               isBlog={false}
-              title="Proshop"
-              description="An Online shopping application where user can buy products. It has many feautures like a user can rate the product, add a comment. Apart from this it has a secure authentication system with paypal api integrated along with Admin functionality to malit more vast."
-              ghLink=""
-              demoLink=""
+              title="DSATUT"
+              description="A Web App where a user can have a set of DSA questions which are commonly asked where user can bookmark the important questions to keep a track. It will further be developed to access the premium content after making a successfull payment ."
+              ghLink="https://github.com/Harsshhhhiiii/dsa-tut"
+
+              demoLink="https://dsa-tut.vercel.app/about"
             />
           </Col>
-
      
 
 
         </Row>
+        
       </Container>
     </Container>
   );
