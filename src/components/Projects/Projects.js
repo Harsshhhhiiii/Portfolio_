@@ -3,7 +3,8 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import chatify from "../../Assets/Projects/chatify.png";
 import DSATUT from "../../Assets/Projects/DSATUT.png"
-
+import ChatAssit from "../../Assets/Projects/ChatAssit.png";
+import TranslatorAI from "../../Assets/Projects/TranslatorAI.png";
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -36,6 +37,33 @@ function Projects() {
               ghLink="https://github.com/Harsshhhhiiii/dsa-tut"
 
               demoLink="https://dsa-tut.vercel.app/about"
+            />
+          </Col>
+     
+
+
+        </Row>
+        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={ChatAssit}
+              isBlog={false}
+              title="ChatAssit"
+              description="A basic AIAgent built with integration of Groq API Key which has the access to static messages chats of various groups about the compamies like Tasks, Sales and the provide suggestions to the user about incomplete and impotant discussions going in different groups. All the data sent through the backend is static currently ."
+              ghLink="https://github.com/Harsshhhhiiii/ChatAssit"
+              demoLink="https://chat-assit-git-researchify-harshits-projects-99ccb490.vercel.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={TranslatorAI}
+              isBlog={false}
+              title="TranslatorAI"
+              description="A Web App which takes login from google auth then will redirect to chat interface where the logged in user can send upload an image which should contain either hindi or english words .The Translator will extract the text from the image and present the text translator to the Alternate language in editable form. The Ui will surely get updates soon ."
+              ghLink="https://github.com/Harsshhhhiiii/TranslatorAI"
+
+              demoLink="https://translator-ai-nine.vercel.app/login"
             />
           </Col>
      
