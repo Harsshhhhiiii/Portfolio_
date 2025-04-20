@@ -77,7 +77,7 @@ function Projects() {
               imgPath={CharityFund}
               isBlog={false}
               title="CharityFund"
-              description="A testing platform build with Node and Express for the backend and MongoDB for storing the successfull payment details along with the integration of Payment Gateway of Razorpay. Also using  Chakra UI along with react to build the frontend part. The user can donate from 1 - 10,000 rupees using all the provided functions from the Gateway. "
+              description="A testing platform which for now deals with fake Money and  is built on Node and Express for the backend and MongoDB for storing the successfull payment details along with the integration of Payment Gateway of Razorpay. Also using  Chakra UI along with react to build the frontend part. The user can donate from 1 - 10,000 rupees using all the provided functions from the Gateway. "
               ghLink="https://github.com/Harsshhhhiiii/HarshitCharityFund"
               demoLink="https://harshit-charity-fund.vercel.app/"
             />
