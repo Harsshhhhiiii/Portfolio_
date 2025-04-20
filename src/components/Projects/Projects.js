@@ -5,6 +5,7 @@ import chatify from "../../Assets/Projects/chatify.png";
 import DSATUT from "../../Assets/Projects/DSATUT.png"
 import ChatAssit from "../../Assets/Projects/ChatAssit.png";
 import TranslatorAI from "../../Assets/Projects/TranslatorAI.png";
+import CharityFund from "../../Assets/Projects/CharityFund.png";
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -67,6 +68,22 @@ function Projects() {
             />
           </Col>
      
+
+
+        </Row>
+        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={CharityFund}
+              isBlog={false}
+              title="CharityFund"
+              description="A testing platform build with Node and Express for the backend and MongoDB for storing the successfull payment details along with the integration of Payment Gateway of Razorpay. Also using  Chakra UI along with react to build the frontend part. The user can donate from 1 - 10,000 rupees using all the provided functions from the Gateway. "
+              ghLink="https://github.com/Harsshhhhiiii/HarshitCharityFund"
+              demoLink="https://harshit-charity-fund.vercel.app/"
+            />
+          </Col>
+
+          
 
 
         </Row>
