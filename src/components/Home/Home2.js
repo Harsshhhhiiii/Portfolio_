@@ -53,7 +53,7 @@ function Home2() {
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={HarshitPicNew} className="img-fluid" alt="avatar" />
+              <img src={HarshitPicNew} className="img-fluid" alt="avatar" style={{ maxWidth: '300px', height: 'auto' }} />
             </Tilt>
           </Col>
         </Row>
