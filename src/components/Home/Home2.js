@@ -23,13 +23,13 @@ function Home2() {
               <br />
               <br />I am fluent in algorithms and classics like
               <i>
-                <b className="purple"> C++, Javascript MERN. </b>
+                <b className="purple"> C++, Javascript ,MERN and Backend development. </b>
               </i>
               <br />
               <br />
               My field of Interest's are building new &nbsp;
               <i>
-                <b className="purple">Web Technologies and Products Development </b> and
+                <b className="purple">Web Technologies, Saas Products  </b> and
                 also in areas related to{" "}
                 <b className="purple">
                   GenAI .

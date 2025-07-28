@@ -9,18 +9,18 @@ function AboutCard() {
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Harshit Pandey </span>
-            from <span className="purple"> Bokaro JHarkhand, India.</span>
+            from <span className="purple"> Bokaro Jharkhand, India.</span>
             <br />
-            I am currently a final year guy at IIT BHU (VARANASI).
+            I am an undergraduate student from  IIT BHU (VARANASI).
             <br />
-            I have a great interest in problem solving using DSA.
+            I have a great interest in problem solving and algorithm building well.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <ImPointRight /> Sports
             </li>
             <li className="about-activity">
               <ImPointRight /> Watch Movies
