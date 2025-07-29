@@ -24,7 +24,7 @@ function Projects() {
               imgPath={chatify}
               isBlog={false}
               title="Chatify"
-              description="A Chat App where a user can securely register himself. It is a platform where the user can search and find a person registered and start to chat. It has real time messaging feature with socket.io implemented."
+              description="Flirting difficult for you ? You do not need to worry anymore . I have come up with a Flirt cat App where a user can register himself and get flirt suggestions with the help of AI . It is a platform where the user can search and find a person registered and start to chat. It has real time messaging feature with socket.io implemented along with flirt suggestions based on the days chat to make it more contextual."
               ghLink="https://github.com/Harsshhhhiiii/Chatify"
               demoLink="https://chatify-kbmc.onrender.com"
             />
