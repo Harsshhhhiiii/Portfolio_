@@ -19,36 +19,21 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I have a keen interest in problem solving and algorithm building 🤷‍♂️
+              I have a great interest in problem solving and algorithm building 🤷‍♂️
               <br />
-              <br />I am fluent in algorithms and classics like
+              <br />I am fluent in algorithms and Tech stacks like
               <i>
-                <b className="purple"> C++, Javascript ,MERN and Backend development. </b>
+                <b className="purple"> C++, Javascript, Python, MERN, Django, FastAPI, Langchain and Langgraph and developing Backend . </b>
               </i>
               <br />
               <br />
               My field of Interest's are building new &nbsp;
               <i>
-                <b className="purple">Web Technologies, Saas Products  </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  GenAI .
-                </b>
+                <b className="purple">SAAS Products, Agentic AI and Automating tasks </b>
               </i>
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js </b>
-              </i>
+          
             </p>
           </Col>
           <Col md={4} className="myAvtar">

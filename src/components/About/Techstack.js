@@ -6,13 +6,14 @@ import {
   DiReact,
   DiNodejs,
   DiMongodb,
-  
   DiGit,
-  
+  DiPython,
 } from "react-icons/di";
 import {
- 
-  SiPostgresql
+  SiPostgresql,
+  SiDjango,
+  SiFastapi,
+  SiLanggraph,
 } from "react-icons/si";
 
 function Techstack() {
@@ -39,7 +40,18 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiPostgresql />
       </Col>
-
+      <Col xs={4} md={2} className="tech-icons">
+        <DiPython />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiDjango />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiFastapi />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiLanggraph />
+      </Col>
     </Row>
   );
 }
